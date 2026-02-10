@@ -41,10 +41,3 @@ def reaction_test():
         time.sleep(0.5)
     pygame.quit()
     return results
-
-
-if __name__ == "__main__":
-    print("Тест на реакцию")
-    data = reaction_test()
-    print(f"\nВсе результаты: {data}")
-    print(f"Среднее: {sum(data) / len(data):.0f} мс")
